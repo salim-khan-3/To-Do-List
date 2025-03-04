@@ -10,10 +10,11 @@ const showPandingTask = document.getElementById(`panding_task`);
 
 const currentDate = document.getElementById(`date`);
 
-var today = new Date();
 
+var today = new Date();
 const formattedDate = today.toLocaleDateString('en-US'); 
 currentDate.innerText = formattedDate;
+
 
 let count = 0;
 
