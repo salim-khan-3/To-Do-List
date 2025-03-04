@@ -24,6 +24,7 @@ h1 {
 header h3{
     color: #575757;
     font-size: 1.25rem;
+    line-height: 30px;
 }
 .Todo-container{
    margin: 50px auto;
@@ -110,4 +111,11 @@ form{
     opacity: 0.6;
     color: gray;
     transition: all 0.1s ease-in-out;
+}
+.date_time{
+    padding: 5px 10px;
+    background-color: #333333;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
 }
